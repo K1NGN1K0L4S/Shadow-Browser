@@ -18,6 +18,9 @@ services:
     ports:
       - 8080:80
     environment:
-      - HOSTNAME = 127.0.0.1
+      - HOSTNAME = 192.168.0.75
+
     env_file:
-      - env.env
+      - 192.168.0.75
+shadow_browser # service docker start
+shadow_browser # docker-compose up
